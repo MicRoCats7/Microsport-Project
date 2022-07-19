@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Shop</title>
+    <link rel="stylesheet" href="/style/cart.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  </head>
+  <body>
+    <!-- Navbar dan Header -->
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="../img/logo micro (2).png" alt="logo" />
+        </div>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="cart-shop">
+          <a href="cart.html"><img src="../img/cart.png" alt="cart-shop" /></a>
+        </div>
+
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- cart -->
+      <article>
+        <section id="cart" class="section-p1">
+          <table width="100%">
+            <thead>
+              <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <a href="#"><i class="far fa-times-circle"></i></a>
+                </td>
+                <td><img src="../img/T-shirt Badminton Faster-RED2.png" alt="Eagle T-shirt" /></td>
+                <td>T-shirt Badminton Faster</td>
+                <td>Rp 129.900</td>
+                <td><input type="number" value="1" /></td>
+                <td>Rp 129.900</td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#"><i class="far fa-times-circle"></i></a>
+                </td>
+                <td><img src="../img/Li-Ning XP 2020 Free Head Cover - White.png" alt="Li-Ning Racket" /></td>
+                <td>Li-Ning XP 2020 Free Head Cover - White</td>
+                <td>Rp 399.800</td>
+                <td><input type="number" value="1" /></td>
+                <td>Rp 399.800</td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#"><i class="far fa-times-circle"></i></a>
+                </td>
+                <td><img src="../img/POWER CUSHION 65 R 3 UNISEX-ORANGE BLACK.png" alt="Yonex Shoes" /></td>
+                <td>POWER CUSHION 65 R 3 UNISEX</td>
+                <td>Rp 1.900.000</td>
+                <td><input type="number" value="1" /></td>
+                <td>Rp 1.900.000</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </article>
+      <!-- cupon cart -->
+      <article>
+        <section id="cart-add" class="section-p1">
+          <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+              <input type="text" placeholder="Enter Your Coupon" />
+              <button class="normal">Apply</button>
+            </div>
+          </div>
+          <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+              <tr>
+                <td>Cart Subtotal</td>
+                <td>Rp 2.429.700</td>
+              </tr>
+              <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+              </tr>
+              <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>Rp 2.429.700</strong></td>
+              </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+          </div>
+        </section>
+      </article>
+    </main>
+    <!------ Footer ------->
+    <footer>
+      <div class="footer-content">
+        <h3>MicroSport</h3>
+        <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+        <ul class="social">
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
+      <hr />
+      <div class="footer-bottom">
+        <p>Copyright &copy;2022 Microsport</p>
+      </div>
+    </footer>
+
+    <script src="/script/script.js"></script>
+  </body>
+</html>
