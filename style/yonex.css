@@ -227,6 +227,15 @@ nav li a:hover::after {
   background-color: #ffffff;
 }
 
+.racket {
+  margin-top: 150px;
+}
+
+.bags {
+  margin-top: 150px;
+  margin-left: 600px;
+}
+
 .section-p1 .logo-brand {
   width: 20%;
   border-radius: 20px;
