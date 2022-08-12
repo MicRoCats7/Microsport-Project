@@ -70,7 +70,7 @@ button.white {
 body {
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden; 
 }
 
 /* --Navbar dan Header--- */
